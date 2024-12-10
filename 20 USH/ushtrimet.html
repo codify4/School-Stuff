@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Një shembull i faqes HTML që përmban elemente bazike.">
+    <meta name="keywords" content="HTML, ushtrime, bazë, formë, tabelë, lista">
+    <meta name="author" content="Ijon Kushta">
+    <icon src="https://utfs.io/f/pg1uHbB3C59OiaPwj08xHD9sbTgN6oZV0k4S18xUhjvMilFa" alt="Favicon"></icon>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Ushtrime HTML</title>
+</head>
+
+    
+<body>
+    <!-- 1. Krijimi i një Strukture Bazë -->
+    <h1>Faqja Ime me ushtrime</h1>
+    <p>Kjo është një faqe e krijuar për të praktikuar HTML.</p>
+    <section>
+        <h2>Përshkrimi</h2>
+        <p>Faqja përmban ushtrime te ndryshme HTML.</p>
+    </section>
+
+    <!-- 2. Vendosja e Imazheve -->
+    <img src="https://utfs.io/f/pg1uHbB3C59OiaPwj08xHD9sbTgN6oZV0k4S18xUhjvMilFa" alt="Imazh nga interneti" width="150">
+    <img src="./mali.jpg" alt="Imazh lokal" width="290">
+
+    <!-- 3. Krijimi i Listave -->
+    <h3>Ushqimet e mia të preferuara</h3>
+    <ul>
+        <li>Pizza</li>
+        <li>Byrek</li>
+        <li>Pasta</li>
+    </ul>
+    <h3>Destinacionet e udhëtimit</h3>
+    <ol>
+        <li>Paris</li>
+        <li>Roma</li>
+        <li>Tokio</li>
+    </ol>
+
+    <!-- 4. LINK -->
+    <a href="https://www.wikipedia.org" target="_blank">Shko tek Wikipedia</a>
+
+    <!-- 5. Tabela e Thjeshtë -->
+    <h3>Lista e Klasave</h3>
+    <table border="1">
+        <tr>
+            <th>Emri i Lëndës</th>
+            <th>Kohëzgjatja</th>
+        </tr>
+        <tr>
+            <td>Matematikë</td>
+            <td>60 minuta</td>
+        </tr>
+        <tr>
+            <td>Fizikë</td>
+            <td>45 minuta</td>
+        </tr>
+        <tr>
+            <td>Info Tek</td>
+            <td>90 minuta</td>
+        </tr>
+    </table>
+
+    <!-- 6. Formë për Komente -->
+    <h3>Komente</h3>
+    <form>
+        <label for="name">Emri:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Mesazhi:</label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+        <button type="submit">Dërgo</button>
+    </form>
+
+    <!-- 7. Përdorimi i div dhe span -->
+    <div>
+        <p>Kjo është një <span style="color: red;">element SPAN i kuq</span> brenda 1 tagu pararaph.</p>
+    </div>
+
+    <!-- 8. Ndërtimi i një Formulari Regjistrimi -->
+    <h3>Regjistrim</h3>
+    <form>
+        <input type="text" placeholder="Emri" required>
+        <input type="text" placeholder="Mbiemri" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Fjalëkalimi" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- 9. Përdorimi i Atributit title -->
+    <h2 title="Ky është një mesazh me titull">Hover mbi tekstin.</h2>
+
+    <!-- 10. Iframe për Video -->
+    <h3>Video</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ok-plXXHlWw?si=ewdBPE1LgF8LEb-W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <!-- 11. Krijimi i Paragrafëve dhe Linjave të Ndara -->
+    <p>Kjo është paragrafi i parë.</p>
+    <hr>
+    <p>Kjo është paragrafi i dytë.</p>
+    <hr>
+    <p>Kjo është paragrafi i trete.</p>
+    <hr>
+    <p>Kjo është paragrafi i katert.</p>
+
+    <!-- 12. Krijimi i Butonave -->
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+
+    <!-- 13. Ndërtimi i Tabelës së Çmimeve -->
+    <h3>Tabela e Çmimeve</h3>
+    <table border="1">
+        <tr>
+            <th>Produkti</th>
+            <th>Çmimi</th>
+            <th>Përshkrimi</th>
+        </tr>
+        <tr>
+            <td>Orë</td>
+            <td>50€</td>
+            <td>Orë dore e bukur</td>
+        </tr>
+        <tr>
+            <td>Laptop</td>
+            <td>800€</td>
+            <td>Laptop i fuqishëm</td>
+        </tr>
+        <tr>
+            <td>Iphone 16 Pro Max</td>
+            <td>1600€</td>
+            <td>Phone me i ri dhe me i mire</td>
+        </tr>
+    </table>
+
+    <!-- 14. Stilizimi i Tekstit me HTML -->
+    <p>Kjo është një <strong>fjalë me tagun STRONG</strong>, kjo është <em>me tagun EM</em>, dhe kjo është <mark>me tagun MARK</mark>.</p>
+
+    <!-- 15. Shtimi i Simboleve Speciale -->
+    <p>&copy; 2024 - Të gjitha të drejtat e rezervuara &trade;.</p>
+
+    <!-- 16. Buton Radio dhe Kutia për Kontroll -->
+    <form>
+        <p>Zgjidhni preferencat tuaja:</p>
+        <p>Ne ushqim:</p>
+        <input type="radio" id="pizza" name="food" value="pizza">
+        <label for="pizza">Pizza</label><br>
+        <input type="radio" id="Krepa" name="food" value="Krepa">
+        <label for="Krepa">Krepa</label><br>
+        <p>Ne udhetime:</p>
+        <input type="checkbox" id="mal" name="mal" value="mal">
+        <label for="mal">Me mal</label><br>
+        <input type="checkbox" id="plazh" name="plazh" value="plazh">
+        <label for="plazh">Ne plazh</label><br>
+    </form>
+
+    <!-- 17. Krijimi i një Seksioni për Shfaqjen e Artikulave -->
+    <section>
+        <h3>Artikuj</h3>
+        <article>
+            <h4>Artikulli 1</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum quas sequi consequatur, veniam numquam laudantium quis! Atque, voluptas quis suscipit odit natus illum animi placeat adipisci rerum officiis aliquid eligendi!</p>
+        </article>
+        <article>
+            <h4>Artikulli 2</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero aperiam dignissimos eaque odit atque. Deserunt eveniet, alias delectus impedit fugiat ad quae debitis assumenda numquam earum optio sit distinctio molestiae.</p>
+        </article>
+    </section>
+
+    <!-- 18. Përdorimi i blockquote dhe cite -->
+    <blockquote>
+        <cite>As a man thinkth, so he is.</cite>
+    </blockquote>
+
+    <!-- 19. Përfshirja e meta të Dhënave -->
+    <!-- Përfshirë më herët në <head> -->
+
+    <!-- 20. Krijimi i një Menuje Navigimi -->
+    <nav>
+        <a href="#home">Faqja Kryesore</a> | 
+        <a href="#about">Rreth Nesh</a> | 
+        <a href="#contact">Kontakti</a>
+    </nav>
+</body>
+</html>
